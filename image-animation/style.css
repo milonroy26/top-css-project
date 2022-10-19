@@ -1,0 +1,57 @@
+.title{
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-container{
+    background-color: black;
+    height: 500px;
+    width: 800px;
+
+    position: relative;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+.transition-img{
+  position: absolute;
+  top: 0;
+  left: 0; 
+  opacity: 0;
+
+  transition: opacity 0.5s ease;
+}
+.transition-img:hover{
+    opacity: 1;
+}
+
+.fade::after{
+    content: "Milon Roy"; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+
+    transition: opacity 0.5s ease;
+}
+
+.fade:hover::after{
+    opacity: 0.5;
+}
