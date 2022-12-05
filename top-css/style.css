@@ -1,0 +1,25 @@
+body:has(.dark-mode-toggle:checked){
+    background: black;
+}
+
+/* Start Real wold Exmple */
+label:has(+ input:valid){
+    color: green;
+}
+
+label:has(+ input:valid)::before{
+    content: "***";
+    margin-right: .25em;
+}
+
+label:has(+ input:invalid){
+    color: red;
+}
+
+label:has(+ input:invalid)::before {
+    content: '+';
+    margin-right: .25rem;
+}
+
+
+
