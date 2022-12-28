@@ -1,0 +1,31 @@
+body {
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(90deg, #2CD9FF, #7EFFB2);
+    background-size: 400% 400%;
+    animation: anim 3.5s infinite ease-in-out;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+@keyframes anim {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
