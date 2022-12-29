@@ -1,0 +1,36 @@
+.main-div {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.div1 {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 10;
+    text-align: center;
+    box-shadow: 8px 6px 10px #FAEA10;
+}
+
+.div2 {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    filter: drop-shadow(8px 8px 50px #F1CC00);
+}
+
+.div2 .circle {
+    width: 100px;
+    height: 100px;
+    background-color: #E8AB04;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
