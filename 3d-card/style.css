@@ -63,3 +63,6 @@
     transform: translate3d(0%, -30%, 100px);
   }
   
+  .card:hover .cover-image {
+    opacity: 0.1;
+  }
