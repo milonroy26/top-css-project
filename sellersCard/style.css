@@ -1,0 +1,47 @@
+.sellersCard .product-miniature {
+    display: flex;
+    align-items: center;
+}
+
+.sellersCard .left-product {
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    border: 1px solid #ebebeb;
+}
+
+.sellersCard .right-product {
+    flex: 1;
+    text-align: left;
+}
+
+.left-product .thumbnail .hover_image img{
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+.left-product .thumbnail:hover .hover_image img{
+    opacity: 1;
+    position: absolute;
+    visibility: visible;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    width: 100%;
+    perspective: 500px;
+    /* -webkit-transform: rotateY(-90deg);
+    -moz-transform: rotateY(-90deg);
+    -ms-transform: rotateY(-90deg);
+    -o-transform: rotateY(-90deg);
+    transform: rotateY(-90deg); */
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}

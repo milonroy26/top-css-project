@@ -1,0 +1,22 @@
+li {
+    list-style-type: "❥";
+    padding-left: 3px;
+}
+
+li::marker {
+    color: crimson;
+}
+
+/* Character	Name	Code point	CSS keyword
+•	Bullet
+‣	Triangular Bullet
+⁃	Hyphen Bullet
+⁌	Black Leftwards Bullet
+⁍	Black Rightwards Bullet	
+◘	Inverse Bullet
+◦	White Bullet
+☙	Reversed Rotated Floral Heart Bullet
+❥	Rotated Heavy Black Heart Bullet
+❧	Rotated Floral Heart Bullet
+⦾	Circled White Bullet
+⦿ */
